@@ -3,6 +3,7 @@ package _07_binary_converter;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
+import javax.swing.JTextField;
 
 public class BinaryConverter {
 
@@ -10,14 +11,14 @@ public class BinaryConverter {
 		
 		JFrame frame = new JFrame();
 		JPanel panel = new JPanel();
+		JTextField textfield= new JTextField();
 		// Create JTextField
 		// Add JTextField on panel
 		frame.add(panel);
 		frame.setVisible(true);
 		frame.setSize(400, 400);
+		panel.add(textfield);
 		
-		
-
 	}
      
 	public String convert(String input) {
