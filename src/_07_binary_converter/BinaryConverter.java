@@ -1,5 +1,6 @@
 package _07_binary_converter;
 
+import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
@@ -12,12 +13,14 @@ public class BinaryConverter {
 		JFrame frame = new JFrame();
 		JPanel panel = new JPanel();
 		JTextField textfield= new JTextField();
+		JButton button = new JButton();
 		// Create JTextField
 		// Add JTextField on panel
 		frame.add(panel);
 		frame.setVisible(true);
 		frame.setSize(400, 400);
 		panel.add(textfield);
+		panel.add(button);
 		
 	}
      
